@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us - MCAST</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f7f9fc;
+      color: #333;
+    }
+
+    header {
+      background: #0046a3;
+      color: white;
+      padding: 1.5rem 0;
+      text-align: center;
+    }
+
+    .logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .logo img {
+      height: 60px;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin: 0;
+    }
+
+    main {
+      padding: 3rem 1rem;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 1rem;
+      font-size: 1.8rem;
+    }
+
+    form {
+      background: #e0e0e0;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    form label {
+      display: block;
+      margin-top: 1rem;
+      font-weight: bold;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 0.6rem;
+      margin-top: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    form button {
+      margin-top: 1.5rem;
+      padding: 0.7rem 1.5rem;
+      background-color: #0046a3;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    form button:hover {
+      background-color: #00337a;
+    }
+
+    footer {
+      background: #0046a3;
+      color: white;
+      text-align: center;
+      padding: 1rem 0;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="Primary-Blue-1-scaled.jpg" alt="MCAST Logo" />
+      <h1>MCAST</h1>
+    </div>
+  </header>
+
+  <main>
+    <h2>Contact Us</h2>
+    <form action="#" method="post">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Your name" required>
+
+      <label for="email">E-mail</label>
+      <input type="email" id="email" name="email" placeholder="your@email.com" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="6" placeholder="Write your message here..." required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+  </main>
+
+  <footer>
+    &copy; 2025 MCAST. All rights reserved.
+  </footer>
+
+</body>
+</html>

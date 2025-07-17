@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MCAST Calendar</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fff;
+    }
+    header, footer {
+      background: #0046a3;
+      color: white;
+      text-align: center;
+      padding: 1em 0;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+    }
+    .logo img {
+      height: 60px;
+    }
+    main {
+      padding: 2rem;
+      text-align: center;
+    }
+    h2 {
+      margin-bottom: 2rem;
+      font-size: 1.8rem;
+      color: #0046a3;
+    }
+    .calendar-grid {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+    .calendar-item {
+      width: 300px;
+      height: 400px;
+      background: #f0f0f0;
+      border: 1px solid #ccc;
+    }
+    .calendar-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    a.back {
+      display: inline-block;
+      margin-top: 2rem;
+      text-decoration: none;
+      background: #0046a3;
+      color: white;
+      padding: 0.6rem 1.5rem;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="Primary-Blue-1-scaled.jpg" alt="MCAST Logo" />
+      <h1>MCAST</h1>
+    </div>
+  </header>
+
+  <main>
+    <h2>Calendar</h2>
+    <div class="calendar-grid">
+      <div class="calendar-item">
+        <img src="Screenshot 2025-07-15 183209.png" alt="Academic Calendar" />
+      </div>
+      <div class="calendar-item">
+        <img src="https://via.placeholder.com/300x400?text=Event+Schedule" alt="Event Schedule" />
+      </div>
+    </div>
+    <a class="back" href="index.html">← Back to Home</a>
+  </main>
+
+  <footer>
+    &copy; 2025 MCAST. All rights reserved.
+  </footer>
+</body>
+</html>
